@@ -27,5 +27,5 @@ setuptools.setup(
         'Intended Audience :: Developers',
     ],
     python_requires='>=2.7',
-    install_requires=['smtplib', 'ssl', 'email'],
+    install_requires=[],
 )
