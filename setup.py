@@ -5,7 +5,7 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name="alert", # Replace with your own username
-    version="0.0.1",
+    version="0.0.2",
     author="Rehan Guha",
     py_modules=["alert"],
     license='gpl-3.0',
