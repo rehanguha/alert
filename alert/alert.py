@@ -4,7 +4,7 @@ from email.mime.multipart import MIMEMultipart
 from email.mime.text import MIMEText
 
 class mail():
-    def __init__(self, sender_password, sender_email, 
+    def __init__(self, sender_email, sender_password, 
                  port = 587, smtp_server = "smtp.gmail.com"):
         self.sender_email = sender_email
         self.sender_password = sender_password
